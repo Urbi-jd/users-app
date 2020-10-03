@@ -1,0 +1,18 @@
+.divList {
+  text-align: center;
+  padding: 1px;
+  margin: 15px;
+ }
+
+.divrow {
+  border-radius: 20px;
+  background-color: lightgray;
+  margin: 5px;
+}
+
+.headDiv {
+  background-color: gray;
+  border-radius: 20px;
+  margin: 5px;
+  font-size: 125%;
+}

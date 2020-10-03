@@ -1,0 +1,31 @@
+<div class="container">
+  <div class="row borders headDiv">
+    <div class="divList col-sm">
+      ID
+    </div>
+    <div class="divList col-sm">
+      Name
+    </div>
+    <div class="divList col-sm">
+      City
+    </div>
+    <div class="divList col-sm">
+      Suite
+    </div>
+  </div>
+
+  <div *ngFor="let user of users" class="row borders divrow">
+    <div class="divList col-sm">
+      {{ user.id }}
+    </div>
+    <div class="divList col-sm">
+      {{ user.name }}
+    </div>
+    <div class="divList col-sm">
+      {{ user.address.city }}
+    </div>
+    <div class="divList col-sm">
+      {{ user.address.suite }}
+    </div>
+  </div>
+</div>
